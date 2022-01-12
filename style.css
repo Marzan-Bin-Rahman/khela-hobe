@@ -1,4 +1,53 @@
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Poppins:wght@500&display=swap');
-/* font-family: 'Hind Siliguri', sans-serif;
-font-family: 'Poppins', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* common or utility styles */
+*{
+    margin: o;
+    padding: 0;
+}
+body{
+    background-color: #F3F1FF;
+}
+.bangla{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 870px;
+    height: 680px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 36px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin: 33px 0 40px 33px;
+}
+hr{
+    width: 807px;
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+/* top players */
+.top-players .top-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-left: 30px;
+}
+.top-player .player-name{
+    margin-left: 16px;
+}
