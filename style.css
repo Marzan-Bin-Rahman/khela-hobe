@@ -37,33 +37,6 @@ hr{
 span{
     font-family: 'Hind Siliguri', sans-serif;
 }
-header
-header nav{
-    width: 100%;
-    height: 94px;
-    background-color: #562EFF;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-nav .all{
-    display: flex;
-    width: 870px;
-    margin-left: 250px;
-    justify-content: space-between;
-}
-nav .all h2{
-    margin-top: -60px;
-    font-size: 24px;
-    color: whitesmoke;
-    margin-left: 50px;
-}
-nav .logo img{
-    width: 40px;
-    height: 50px;
-    margin-top: 26px;
-    margin-bottom: 16px;
-}
 /* top players */
 .top-players .top-player{
     display: grid;
@@ -156,4 +129,11 @@ nav .logo img{
 }
 .course-duration .far{
     padding:0 5px;
+}
+/* meadia query */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    
 }
